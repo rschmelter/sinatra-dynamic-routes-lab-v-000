@@ -28,13 +28,13 @@ class App < Sinatra::Base
     number1 = params[:number1].to_i
     number2 = params[:number2].to_i
 
-    if operation = "add"
+    if operation == "add"
       result = number1 + number2
-    elsif operation = "subtract"
+    elsif operation == "subtract"
       result = number1 - number2
-    elsif operation = "multiply"
+    elsif operation == "multiply"
       result = number1 * number2
-    elsif operation = "divide"
+    elsif operation == "divide"
       result = number1 / number2
     else
       "No answer"
