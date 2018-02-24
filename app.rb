@@ -30,16 +30,12 @@ class App < Sinatra::Base
 
     if operation = "add"
       result = number1 + number2
-
     elsif operation = "subtract"
       result = number1 - number2
-
     elsif operation = "multiply"
       result = number1 * number2
-
     elsif operation = "divide"
       result = number1 / number2
-
     else
       "No answer"
     end
