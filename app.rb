@@ -27,11 +27,12 @@ class App < Sinatra::Base
     operation = params[:operation]
     number1 = params[:number1].to_i
     number1 = params[:number2].to_i
-
+    
   end
 
   
-  
+
+
 
 
 end
