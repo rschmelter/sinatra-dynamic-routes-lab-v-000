@@ -35,9 +35,11 @@ class App < Sinatra::Base
       result = number1 = number2
       "result"
     elsif operation = "multiply"
-      "#{number1 * number2}"
+      result = number1 * number2
+      "result"
     elsif operation = "divide"
-      "#{number1 / number2}"
+      result = number1 / number2
+      "result"
     else
       "No answer"
     end
