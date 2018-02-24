@@ -33,14 +33,11 @@ class App < Sinatra::Base
     elsif operation = "subtract"
       "#{number1 - number2}"
 
-    elsif
-      operation = "multiply"
+    elsif operation = "multiply"
       "#{number1 * number2}"
-    elsif
-      operation = "divide"
+    elsif operation = "divide"
       "#{number1 / number2}"
-    else
-      "No answer"
+
     end
 
   end
