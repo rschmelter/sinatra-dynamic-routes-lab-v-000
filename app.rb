@@ -30,20 +30,21 @@ class App < Sinatra::Base
 
     if operation = "add"
       result = number1 + number2
-      "result"
+    
     elsif operation = "subtract"
       result = number1 = number2
-      "result"
+      
     elsif operation = "multiply"
       result = number1 * number2
-      "result"
+      
     elsif operation = "divide"
       result = number1 / number2
-      "result"
+    
     else
       "No answer"
     end
 
+    "#{result}"
   end
 
 
